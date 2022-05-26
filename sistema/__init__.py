@@ -1,0 +1,3 @@
+from django.conf import PASSWORD_RESET_TIMEOUT_DAYS_DEPRECATED_MSG
+import pymysql
+pymysql.install_as_MySQLdb()
